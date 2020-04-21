@@ -5,5 +5,7 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(response):
-    return HttpResponse("<h1>Dating Chat Bot </h1>")
+    return HttpResponse("<h1>Dating Chat Bot... Perfectly working :)</h1>"
+                        "<body> press here </body>")
+
 
